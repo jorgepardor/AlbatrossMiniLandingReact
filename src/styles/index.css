@@ -10,3 +10,16 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.navbar {
+    background-color: #1F2933;
+}
+
+.jumbo {
+    background: #525C66;
+}
+.card {
+    width: 18rem;
+    margin-left: 20px;
+    margin-right: 20px;
+}
