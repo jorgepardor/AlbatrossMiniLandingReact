@@ -11,15 +11,41 @@
 
 */
 
+body {
+    background-color: whitesmoke;
+
+}
+
 .navbar {
     background-color: #1F2933;
 }
 
 .jumbo {
+    background-image: url("/src/img/title_bg.jpg");
+    background-repeat: no-repeat, repeat;
     background: #525C66;
 }
+
 .card {
     width: 18rem;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+footer {
+    display: flex;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid #525C66!important;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between!important;
+    /* list-style: none; */
+}
+
+footer ul li {
+    /* text-decoration: none; */
+
 }

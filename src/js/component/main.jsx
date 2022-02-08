@@ -7,8 +7,6 @@ const Main = () => {
 	return (
 		<div class="d-flex justify-content-center">
 			<Card />
-			<Card />
-			<Card />
 		</div>
 	);
 };

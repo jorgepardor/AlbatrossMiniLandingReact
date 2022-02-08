@@ -10,6 +10,7 @@ import "../styles/index.css";
 import Navbar from "./component/navbar.jsx";
 import Title from "./component/title.jsx";
 import Main from "./component/main.jsx";
+import Footer from "./component/footer.jsx";
 
 //render your react application
 ReactDOM.render(
@@ -17,6 +18,7 @@ ReactDOM.render(
 		<Navbar />
 		<Title />
 		<Main />
+		<Footer />
 	</div>,
 	document.querySelector("#app")
 );

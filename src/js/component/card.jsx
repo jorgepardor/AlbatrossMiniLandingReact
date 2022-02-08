@@ -1,22 +1,35 @@
 import React from "react";
 
+import CardInfo from "/src/js/component/cardinfo.jsx";
 const Card = () => {
 	return (
-		<div className="card">
-			<img
-				src="https://picsum.photos/200/200"
-				className="card-img-top"
-				alt="..."
-			/>
-			<div className="card-body">
-				<h5 className="card-title">Card title</h5>
-				<p className="card-text">
-					Some quick example text to build on the card title and make
-					up the bulk of the card's content.
-				</p>
-				<a href="#" className="btn btn-primary">
-					Go somewhere
-				</a>
+		<div class="d-flex justify-content-center">
+			<div className="card">
+				<CardInfo
+					title="Locked and loaded vertical integration"
+					image="https://picsum.photos/200/200"
+					paragraph="We've got kpis for that rock Star/Ninja driving the initiative forward start procrastinating 2 hours get to do work while procrastinating"
+					buttonLink="#"
+					buttonText="Obviously"
+				/>
+			</div>
+			<div className="card">
+				<CardInfo
+					title="Tiger team"
+					image="https://picsum.photos/300/300"
+					paragraph="Organic growth service as core innovations as pow"
+					buttonLink="#"
+					buttonText="Service as core"
+				/>
+			</div>
+			<div className="card">
+				<CardInfo
+					title="High performance"
+					image="https://picsum.photos/400/400"
+					paragraph="Our competitors are jumping the shark red flag, and commitment to the cause . Locked and loaded that jerk from finance really threw me under the bus, looks great."
+					buttonLink="#"
+					buttonText="Agile deep dive"
+				/>
 			</div>
 		</div>
 	);

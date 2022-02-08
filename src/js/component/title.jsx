@@ -1,10 +1,11 @@
 import React from "react";
 
-import Mainlogo from "/workspace/react-hello/src/img/main_logo.png";
+import Mainlogo from "/src/img/main_logo.png";
+import Mainbg from "/src/img/title_bg.jpg";
 
 const Title = () => {
 	return (
-		<div className="jumbo p-5 mb-4 rounded-3">
+		<div className="jumbo p-5 mb-4">
 			<div className="container-fluid py-5">
 				<img
 					src={Mainlogo}
