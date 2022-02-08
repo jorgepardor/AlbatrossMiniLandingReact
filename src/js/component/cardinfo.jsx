@@ -7,7 +7,9 @@ const CardInfo = ({ title, image, paragraph, buttonLink, buttonText }) => {
 			<div className="card-body">
 				<h5 className="card-title">{title}</h5>
 				<p className="card-text">{paragraph}</p>
-				<a href={buttonLink} className="btn btn-primary">
+				<a
+					href={buttonLink}
+					className="btn btn-sm btn btn-outline-dark">
 					{buttonText}
 				</a>
 			</div>

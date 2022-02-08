@@ -17,7 +17,8 @@ const Card = () => {
 				<CardInfo
 					title="Tiger team"
 					image="https://picsum.photos/300/300"
-					paragraph="Organic growth service as core innovations as pow"
+					paragraph="Organic growth service as core innovations as pow, productize the deliverables and focus on the
+					bottom line."
 					buttonLink="#"
 					buttonText="Service as core"
 				/>

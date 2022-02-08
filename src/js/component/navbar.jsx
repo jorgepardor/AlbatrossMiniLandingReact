@@ -4,14 +4,14 @@ import logo from "/src/img/icon.png";
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg">
+		<nav className="navbar navbar-expand-lg fixed-top">
 			<div className="container-fluid">
-				<a class="navbar-brand">
+				<a class="navbar-brand mx-5">
 					<img
 						src={logo}
 						alt=""
-						width="64"
-						height="32"
+						width="150"
+						height="33"
 						class="d-inline-block align-text-top"
 					/>
 				</a>
@@ -46,7 +46,7 @@ const Navbar = () => {
 							</a>
 						</li>
 						<li className="nav-item">
-							<a className="nav-link text-light disabled">
+							<a className="nav-link disabled">
 								Corporate Access
 							</a>
 						</li>

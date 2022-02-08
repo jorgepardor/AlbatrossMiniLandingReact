@@ -5,25 +5,18 @@ import Mainbg from "/src/img/title_bg.jpg";
 
 const Title = () => {
 	return (
-		<div className="jumbo p-5 mb-4">
-			<div className="container-fluid py-5">
-				<img
-					src={Mainlogo}
-					alt=""
-					width="454"
-					height="340"
-					class="d-inline-block align-text-top"
-				/>
-				<p className="col-md-8 fs-4">
-					Best practices message the initiative but hire the best
-					value prop. Pig in a python zoom meeting at 2:30 today
-					strategic staircase, yet onward and upward, productize the
-					deliverables and focus on the bottom line let's circle back
-					tomorrow.
-				</p>
-				<button className="btn btn-primary btn-lg" type="button">
-					Fly with us
-				</button>
+		<div
+			className="background mb-4"
+			style={{ backgroundImage: `url(${Mainbg})` }}>
+			<div className="row jumbo py-5">
+				<div className="container col-12 text-center p-5">
+					<img src={Mainlogo} alt="" class="logoMain" />
+					<p className="lead text-light">
+						Best practices message the initiative, hire the best
+						value prop, productize the deliverables and focus on the
+						bottom line.
+					</p>
+				</div>
 			</div>
 		</div>
 	);
