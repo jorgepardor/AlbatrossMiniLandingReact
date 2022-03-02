@@ -9,7 +9,7 @@ import "../styles/index.css";
 
 import Navbar from "./component/navbar.jsx";
 import Title from "./component/title.jsx";
-import Main from "./component/main.jsx";
+import Card from "./component/card.jsx";
 import Footer from "./component/footer.jsx";
 
 //render your react application
@@ -17,7 +17,7 @@ ReactDOM.render(
 	<div>
 		<Navbar />
 		<Title />
-		<Main />
+		<Card />
 		<Footer />
 	</div>,
 	document.querySelector("#app")

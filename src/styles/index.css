@@ -16,9 +16,9 @@ body {
 
 }
 
-.navbar {
+/* .navbar {
     background-color: #1F2933;
-}
+} */
 
 .background {
     background-position: center;
@@ -29,22 +29,18 @@ body {
     padding-top: 0;
 }
 
-.jumbo {
-    background: rgb(83,112,140);
-    background: linear-gradient(0deg, rgba(83,112,140,0.8421743697478992) 0%, rgba(0,10,54,0.8897934173669468) 100%);
-    width: 100%;
-    height: 100%;
-    padding: 0;
-    margin: 0;
-}
+/* .custom-toggler {
+    border-color: whitesmoke;
+    color: whitesmoke;
+} */
 
 .logoMain {
-    width: 450px;
+    /* width: 450px; */
     margin: auto;
 }
 
 .card {
-    width: 18rem;
+    /* width: 18rem; */
     margin-left: 20px;
     margin-right: 20px;
 }

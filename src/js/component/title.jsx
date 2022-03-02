@@ -6,11 +6,11 @@ import Mainbg from "/src/img/title_bg.jpg";
 const Title = () => {
 	return (
 		<div
-			className="background mb-4"
+			className="container-fluid"
 			style={{ backgroundImage: `url(${Mainbg})` }}>
 			<div className="row jumbo py-5">
-				<div className="container col-12 text-center p-5">
-					<img src={Mainlogo} alt="" class="logoMain" />
+				<div className="col-12">
+					<img src={Mainlogo} alt="" className="logoMain" />
 					<p className="lead text-light">
 						Best practices message the initiative, hire the best
 						value prop, productize the deliverables and focus on the
@@ -23,3 +23,5 @@ const Title = () => {
 };
 
 export default Title;
+
+//
