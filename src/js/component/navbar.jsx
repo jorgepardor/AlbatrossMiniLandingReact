@@ -4,7 +4,7 @@ import logo from "/src/img/icon.png";
 
 const Navbar = () => {
 	return (
-		<nav className="navbar navbar-expand-lg fixed-top">
+		<nav className="navbar navbar-expand-lg bg-dark fixed-top">
 			<div className="container-fluid">
 				<a className="navbar-brand mx-5">
 					<img
@@ -16,7 +16,7 @@ const Navbar = () => {
 					/>
 				</a>
 				<button
-					className="navbar-toggler custom-toggler"
+					className="navbar-toggler custom-toggler border-light"
 					type="button"
 					data-bs-toggle="collapse"
 					data-bs-target="#navbarNav"
@@ -28,8 +28,8 @@ const Navbar = () => {
 							xmlns="http://www.w3.org/2000/svg"
 							width="16"
 							height="16"
-							fill="currentColor"
-							class="bi bi-list"
+							fill="whitesmoke"
+							className="bi bi-list"
 							viewBox="0 0 16 16">
 							<path
 								fill-rule="evenodd"

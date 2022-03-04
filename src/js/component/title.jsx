@@ -6,9 +6,9 @@ import Mainbg from "/src/img/title_bg.jpg";
 const Title = () => {
 	return (
 		<div
-			className="container-fluid"
+			className="container-fluid background"
 			style={{ backgroundImage: `url(${Mainbg})` }}>
-			<div className="row jumbo py-5">
+			<div className="row jumbo py-5 text-center">
 				<div className="col-12">
 					<img src={Mainlogo} alt="" className="logoMain" />
 					<p className="lead text-light">

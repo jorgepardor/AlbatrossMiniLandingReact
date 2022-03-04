@@ -3,7 +3,7 @@ import React from "react";
 import CardInfo from "/src/js/component/cardinfo.jsx";
 const Card = () => {
 	return (
-		<div className="container text">
+		<div className="container text mt-5">
 			<div className="row">
 				<div className="col-sm-12 col-md-4">
 					<div className="card">
